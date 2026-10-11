@@ -18,6 +18,6 @@ public class LoginTest extends BaseTest {
 		new LoginPage(driver).enterEmail(email);
 		new LoginPage(driver).enterPassword(pass);
 		new LoginPage(driver).clickLogin();
-		
+		System.out.println("Login test completed successfully.");		
 	}
 }
